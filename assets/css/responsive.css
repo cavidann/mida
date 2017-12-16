@@ -1,0 +1,924 @@
+
+#sale{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: url(../images/slider/2.jpg);
+    background-size: cover;
+    z-index: 4;
+    padding-top: 14vh;
+}
+#sale:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 38, 51, 0.8);
+    z-index: -1;
+    top:0;
+}
+#sale h3{
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.27;
+    text-align: left;
+}
+#sale .explanation{
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: left;
+    color: #ffffff;
+    text-transform: none;
+}
+#sale ul{
+    border-radius: 10px;
+    border: dashed 2px #e0d14d;
+    text-transform: none;
+    font-weight: 500;
+    line-height: 1.65;
+    font-size: 20px;
+    padding: 12px 0px;
+    display: inline-block;
+}
+#sale ul li{
+    padding: 0px 70px;
+}
+#sale h4{
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: left;
+    color: #e0d14d;
+    margin-top:23px; 
+}
+#sale p{
+    font-family: Proxima Nova;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.4;
+    text-align: center;
+    color: #ffffff;
+}
+#sale .rcenter{
+    width: 523px!important;
+}
+.buttoninfo {
+	display: inline-block;
+    padding: 13px 18px;
+    border-radius: 100px;
+    background-color: white;
+    border: solid 3px white;
+    font-family: 'Proxima Nova';
+    text-decoration: none;
+    color: #274149;
+    font-weight: 500;
+	font-size: 18px;
+    transition: .3s;
+}
+
+.buttoninfo>img{
+    width: 21px;
+}
+.stable-inner h4{
+    display:inline-block; 
+    font-family: Proxima Nova;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 1.45;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-left: 7%;
+    margin-right: 20px;
+}
+.stable-inner .buttoninfo, .stable-inner h4{
+    display: none;
+} 
+#svg-section .apartment ul li .icon,
+#svg-section .apartment ul li .desc.highlight{
+float: left;
+}
+#svg-section ul li .desc.highlight{
+    width: 87px;
+    margin-left: 16px;
+    margin-top: 7px;
+    text-align: left;
+}
+.rmodal-bk{
+    display: none;
+}
+.rmodal{
+    position: relative;
+}
+.rmodal img{
+    width: 50px;
+    position: absolute;
+    right: 0px;
+}
+.accordion{
+    display: none;
+}
+.ralert{
+    display: none;
+}
+.for-overflow-problem{
+    margin-left:-40px; 
+    height: 42vh; 
+    overflow-y: auto;
+}
+#repair{
+    height: 100%;
+}
+.rbtnbefore{
+    display: none;
+}
+.hde{
+    display: block;
+}
+@media only screen 
+and (max-device-height: 1366px) 
+and (orientation: portrait) {
+    .ralert{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;    
+        text-align: center;
+    }
+    .ralert span{
+        font-size: 22px;
+        text-transform: uppercase;
+        font-weight: 700;
+        border: 3px dashed;
+        margin: 0px;
+        padding: 9px;
+        color:#e0d14d;
+    }
+    .display-none-portrait, #footer{
+        display: none;
+    }
+}
+/* //////////////////////////////////////////// */
+@media only screen 
+and (max-width: 1024px) 
+and (orientation: landscape){
+    .fixing{
+        left: 54%!important;
+        transform: translateX(-50%)!important;
+        border: 1px solid;
+        width: auto!important;
+        margin: 0px;
+        padding-left: 0px!important;
+        padding-right: 0px!important;
+    }
+    .display-none-portrait, #footer{
+        display: block;
+    }
+    .ralert{
+        display: none;
+    }
+    #navbar ul.text-right li{
+        text-align: center;
+        display: block!important;
+        border-bottom: 1px solid;
+        width: 100%;
+        margin: 0px;
+    }
+    #navbar ul.text-right a:nth-child(7),
+    #navbar ul.text-right a:nth-child(8),
+    #navbar ul.text-right a:nth-child(9){
+        display: none;
+    }
+    #navbar .text-right{
+        position: fixed;
+        left: 0px;
+        bottom: 0px;
+        background: darkslategrey; 
+        margin-bottom: 0px;
+        height: 80vh;
+    }
+    .text-right{
+        float: right;
+        width: 100%;
+        display: none;
+    }
+    #navbar .logo{
+        margin-top: 0px;
+    }
+    #navbar .logo .img{
+        margin-top: 20px;
+        margin-left: 34px;
+    }
+    #navbar{
+        background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(0, 38, 51, 0));
+    }
+    .lines{
+        cursor: pointer;
+        float: right;
+        margin-top: 28px;
+        margin-right: 20px;
+    }
+    .line{
+        width: 48px;
+        height: 4.3px;
+        background: white;
+        margin: 5px;
+    }
+    
+    
+    #contact .contact-list{
+        margin-left: 0px; 
+        display: block;
+        text-align: center;
+    }
+    div.heading.highlight.contact-heading{
+        width: 100%;
+        margin-left:0px;
+        text-align: center; 
+    }
+    
+    #footer{
+        height: 0px;
+        bottom: 200px;
+    }
+    
+    #footer .extra-links>li {
+        margin-right: 0px;
+    }
+    #carousel-example-generic .carousel-control span{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    background: white;
+    color: black;
+    }
+    #carousel-example-generic .carousel-control{
+        background-image: linear-gradient(to right,rgba(0,0,0,0) 0,rgba(0,0,0,0) 100%);
+        width: 50%;
+    }
+    .carousel-control{
+        opacity: 1!important;
+    }
+    .carousel-control .glyphicon-chevron-left{
+        left: 16%!important;
+    }
+    .carousel-control .glyphicon-chevron-right{
+        right: 16%!important;
+    }
+    #about .heading{
+        margin-top:180px; 
+    }
+    #about .list-header{
+        margin-top:0px!important;
+    }
+
+    #search .heading{
+        margin-top: 60px;
+    }
+    #search .data-holder{
+        margin-top:30px; 
+    }
+    
+    .for-overflow-problem{
+        height: auto!important;
+        overflow-y: inherit!important;
+    }
+    #repair{
+        height: max-content!important
+    }
+    .apartment .apartment-links {
+        bottom: 11.5vh;
+        left: -26px;
+    }
+    #svg-section ul li .desc.highlight {
+        width: 46px;
+    }
+    .hde{
+        display: none;
+    }
+    .rbtnbefore{
+        display: block;
+    }
+}
+/* ////////////////////////////////////////// */
+@media only screen 
+and (max-width: 736px) 
+and (orientation: landscape) {
+    body{
+        display: block;
+    }
+    #navbar .text-right{
+        height: 78vh;
+        overflow-y: scroll;
+    }
+    #navbar ul.text-right li{
+        display: block!important;
+    }
+    #navbar .logo .img{
+        width: 70px;
+        margin-left: 7px;
+    }
+    #navbar .logo .title b{
+        font-size: 22px;
+        line-height: 22px;
+    }
+    #navbar .logo .title{
+        margin-top:11px; 
+        font-size: 16px;
+        line-height: 22px; 
+    }
+    .lines{
+        margin-right:-5px; 
+    }
+    #contact{
+        height: 710px;;
+    }
+    #footer{
+        height: 0px;
+        bottom: -44px;
+    }
+    #footer .list-inline{
+        text-align: center;
+        margin: 15px auto;
+    }
+    #footer .three-sisters.text-center{
+        width: 100%!important;
+    }
+    #carousel-example-generic .carousel-control span {
+        width: 77px;
+        height: 77px;
+        line-height: 77px;
+    }
+    #pay{
+        height: auto!important;
+    }
+    #pay .first{
+        text-align: center;
+    }
+    #pay .three{
+        text-align: center;
+    }
+    #about .list-first{
+        margin-left:0px!important;
+        text-align: center; 
+        padding: 15px 57px;
+    }  
+    #about .about-list{
+        margin-left:0px;
+        padding:15px 57px; 
+        height: auto;
+    }
+    #about .heading{
+        margin-left:0px;
+        width: 100%;
+        text-align: center; 
+        margin-top: 117px;
+    }
+    #about{
+        height: auto;
+    }
+    #repair{
+        height: 555px;
+        padding-top:120px; 
+    }
+    #repair .page-title>* {
+        text-align: center;
+    }
+    #repair .three{
+        text-align: center;
+    }
+    #repair .container .col-md-12:nth-child(1){
+        margin-left:0px!important; 
+    }
+    #repair .highlight.white{
+        margin-top: -10px!important;
+    }
+    #search .apartment-types .apartment-type {
+        width: calc(100% - 5px);
+    }
+    #search .about-list{
+        width: 100%;
+        margin-left:0px; 
+        padding-left: 115px; 
+        padding-right: 115px; 
+    }
+    #search p{
+        float: left;
+        width: 128px;
+        text-align: right;
+        padding-right: 19px;
+        margin-top: 12px;
+    }
+    #search .pull-right{
+        float: none!important;
+    }
+    #search li{
+        text-align: center;
+    }
+    footer.stable-inner.flex.flex-center button.buttonbefore{
+        display: none;
+    } 
+    #search .heading{
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    #search .heading.highlight.search-heading h3 br{
+        display: none!important;
+    }
+    #search h3{
+        margin-bottom: 25px; 
+    }
+    #search{
+        height: auto;
+    }
+    .floor-compass{
+        display: none;
+    }
+    #info.info-mertebe.info-bina.text-center{
+        height: 0px;
+        overflow: hidden;
+        padding: 0px!important;
+    }
+    .buttonbefore.flex-align-left{
+        display: block!important;
+    }
+    #sale .heading{
+        margin-top: 11vh;
+        margin-left:0px;
+        width: 100%; 
+    }
+    #sale h4{
+        margin-top: 13px;
+    }
+    #sale p, #sale h3, #sale h4{
+        text-align: center!important;
+    }
+    #sale .rcenter{
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #sale ul li{
+        padding: 0px 30px;
+    }
+    #sale ul{
+        margin: 0px;
+    }
+    #svg-section .apartment-details{
+        display: none;
+    }
+    #svg-section #info{
+       right: 24px; 
+       height: 0px;
+       padding: 0px;
+        overflow: hidden;
+    }
+    #svg-section .mertebeler.mertebeler-menzil.apartment-navigation ul{
+        margin-top:29px; 
+    }
+    #svg-section .apartment .col-md-6 .apartment-project img{
+        margin-top:20px; 
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(1),
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(2),
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(3),
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(4){
+        position: fixed;
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(1){
+        left: 20px;
+        top: 139px;
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(2){        
+        top: 230px;
+        left: 20px;
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(3){
+        top: 139px;
+        right: 0px;
+    }        
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(4){
+        top: 230px;
+        right: 0px;
+    } 
+    #svg-section ul li .desc.highlight {
+        width: 87px;
+    }  
+    .stable-inner .buttoninfo, .stable-inner h4{
+        display: inline-block;
+    }  
+    .rmodal-bk{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0,0,0,0.5);
+        z-index: 200;
+    }   
+    .rmodal{
+        /* display: inline-block!important; */
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: white;
+        width: 500px;
+        /* height: 320px; */
+    }
+    .rmodal .left,.rmodal .right{
+        float: left;
+        width: 50%;
+    }
+    .rmodal .list{
+        font-family: Proxima Nova;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.31;
+        text-align: center;
+        color: #9b9b9b;
+        text-transform: uppercase;
+        margin-top: 15px;
+    }
+    .rmodal .rnum{
+        font-family: Proxima Nova;
+        font-size: 22px;
+        font-weight: 900;
+        line-height: 1.45;
+        text-align: center;
+        color: #565c5c;
+    }
+    .rmodal .left ol li{
+        color: #717676;
+        font-size: 17px;
+        line-height: 29px;
+    }
+    .rmodal .right ul li{
+        color: #9b9b9b;
+        font-size: 18px;
+        font-weight: 600;
+    }
+    .rmodal .right ul li:nth-child(even){
+        margin-bottom: 5px;
+        color: #565c5c;
+    }
+    .rmodal .right ul li p{
+        margin: 0px;
+        font-weight: normal;
+        font-size: 15px;
+    }
+    .rmodal .clear-fix{
+        clear: both;
+    }
+    .rmodal .foot{
+        text-align: center;
+        font-size: 17px;
+        border-top: 1px solid #71767670;
+        padding-top: 10px;
+    }
+    .rmodal .foot a, .rmodal .foot b{
+        font-size: 19px;
+        line-height: 0.73;
+        color: #565c5c;
+    }
+    #navbar{
+        line-height: 37px;
+    }
+    #preference .row:nth-child(2){
+        display: none;
+    }
+    #preference .page-title>*{
+        text-align: center!important;
+    }
+    #preference{
+        padding-top: 73px;
+        height: auto;
+    }
+    .accordion {
+        display: block;
+        width: 500px;
+        margin: 0 auto;
+    }
+    
+    .accordion .item {
+        margin-bottom: 5px;
+    }
+    
+    .accordion .head {
+        font-family: Proxima Nova;
+        font-size: 22px;
+        font-weight: bold;
+        text-align: center;
+        color: white;
+        border-top: 1px dashed white; 
+        padding-top: 15px;
+        margin-bottom: 10px;   
+    }
+    
+    .accordion .body {
+        display: none;
+        overflow: hidden;
+        font-family: Proxima Nova;
+        font-size: 20px;
+        line-height: 1.4;
+        text-align: center;
+        color: white;
+    }
+    .buildingIcon{
+        width: 30px;
+    }
+    .searchbutton {
+        padding: 5px 20px;
+    }
+    .buttonbefore, .buttoninfo{
+        padding: 8px 18px;
+    }
+    #search .search{
+        width: 128px;
+        height: 44px;
+    }
+    .netice{
+        border: 1px solid #dadfe7;
+        position: static;
+        border-radius: 6px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .popup{
+        width: 500px;
+        top: 50%!important;
+        transform: translateY(-50%);
+        height: 300px;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    .popup-cont, .ptabcont,.popshadtop, #calc2{
+        width: 100%;
+    }
+    .poptabs{
+        display: flex;
+    }
+    .ptabs{
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background-size:cover; 
+        padding: 7px 30px; 
+    }
+    .popcontent{
+        width:440px;
+        height: auto;
+        margin-bottom: 20px;
+        margin-top: 25px;
+    }
+    .table-responsive{
+        border: none!important;
+    }
+}
+/* ////////////////////////////////////// */
+@media only screen 
+and (max-width: 732px) 
+and (orientation: landscape){
+    #footer img{
+        width: 55px!important;
+    }
+}
+@media only screen 
+and (max-width: 667px) 
+and (orientation: landscape){
+    #navbar .text-right {
+        height: 77vh;
+    }
+    
+    #sale .rcenter{
+        width: 69%;
+     }
+    #sale h4 {
+        margin-top: 5px;
+    }
+    #sale .heading {
+        margin-top: 6vh;
+    }
+    #sale h3{
+        line-height: 19px;
+    }
+    #svg-section .mertebeler-menzil ul li.mega{
+        font-size: 25px; 
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(1){
+        top:132px; 
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(2){
+        top:209px; 
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(3){
+        top:132px; 
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(4){
+        top:209px; 
+    }
+    .buttonbefore,.buttoninfo{
+        padding: 10px 15px;
+    }
+    #about div.col-lg-2.col-md-2.col-xs-2.col-sm-2{
+        padding-left:0px;
+        margin-left:  -5px;
+    }
+    #footer img{
+        width: 45px!important;
+    }
+}
+/* ////////////////////////////////////// */
+
+@media only screen 
+and (max-width: 640px) 
+and (orientation: landscape){
+    .mertebeler{
+        margin-top:12px; 
+    }
+    #svg-section .mertebeler-menzil ul li.mega {
+        font-size: 23px;
+    }
+    #svg-section .mertebeler-menzil ul li.mega {
+        font-size: 23px;
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(1){
+        top: 140px;
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(2){
+        top:202px; 
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(3){
+        top: 140px;
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(4){
+        top:202px; 
+    }
+    #svg-section .apartment .col-md-6 .apartment-project img {
+        margin-top: 28px;
+    }
+    .apartment .apartment-links img{
+        width: 47px;
+    }
+    .buttonbefore,.buttoninfo{
+        padding: 7px 12px;
+    }
+    #about div.col-lg-2.col-md-2.col-xs-2.col-sm-2{
+        padding-left:0px;
+        margin-left:  -19px;
+    }
+    #navbar .logo{
+        margin-top:-10px;
+    }
+    #navbar .lines{
+        margin-top: 25px;
+    }
+}
+/* ////////////////////////////////////// */
+@media only screen 
+and (max-width: 568px) 
+and (orientation: landscape){
+    #navbar .logo .img{
+        margin-left:-2px;
+    }
+    .lines {
+        margin-right: -13px;
+    }
+    #contact .contact-heading {
+        margin-top: 28vh;
+    }
+    #footer {
+        bottom: -115px;
+    }
+    #contact{
+        height: 745px;;
+    }
+    #carousel-example-generic .carousel-control span {
+        width: 60px;
+        height: 60px;
+        line-height: 60px;
+    }
+    div div #footer div div ul.list.list-inline{
+        margin-top:54px; 
+    }
+    #search .about-list{
+        padding-left:58px;
+        padding-right:58px;  
+    }
+    footer.stable-inner>.searchbutton {
+        margin-left: -98px;
+    }
+    .mertebeler{
+        margin-top:25px; 
+    }
+    #sale .heading {
+        margin-top: 13vh;
+    }
+    #sale .explanation{
+        font-size: 18px;
+    }
+    #sale h3 {
+        line-height: 10px;
+    }
+    #sale h4 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+    }
+    #sale .explanation{
+        line-height: 22px;
+    }
+    #sale ul{
+        line-height: 26px;
+        font-size: 18px;
+        margin: 0px;
+    }
+    #svg-section .mertebeler-menzil ul li.mega {
+        font-size: 20px;
+    }
+    .mertebeler {
+        margin-top: 10px;
+    }
+    #svg-section .apartment .col-md-6 .apartment-project img {
+        margin-top: 32px;
+    }
+    .apartment .apartment-links .apartment-link .icon{
+        margin-bottom:5px; 
+    }
+    .apartment .apartment-links img{
+        width: 40px;
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(1){
+        top:126px; 
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(2){
+        top:181px; 
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(3){
+        top:126px; 
+        right: -14px;
+    }
+    #svg-section .apartment .buttons.apartment-links ul li:nth-child(4){
+        top:181px; 
+        right: -14px;
+    }
+    .buttonbefore, .buttoninfo{
+        padding: 5px 18px;
+        margin-top: 16px;
+    }
+    #svg-section ul li .desc.highlight {
+        margin-left: 9px;
+        margin-top: 1px;
+    }
+    #about div.col-lg-2.col-md-2.col-xs-2.col-sm-2{
+        padding-left:0px;
+        margin-left:  -35px;
+    }
+    #navbar .logo{
+        margin-top:-15px;
+    }
+    #navbar .lines{
+        margin-top: 20px;
+    }
+    #footer img {
+        margin-top: 0px;
+        float: left;
+    }
+}
+/* height */
+/* ////////////////////////////////////////// */
+@media only screen 
+and (max-height: 360px) 
+and (orientation: landscape){
+    #footer {
+        bottom: -76px;
+    }
+}
+@media only screen 
+and (max-height: 320px) 
+and (orientation: landscape){
+    #footer {
+        bottom: -76px;
+    }
+    .rmodal .rnum{
+        font-size:19px;
+        line-height: 1; 
+    }
+    .rmodal .list{
+        line-height: 1;
+        font-size:15px; 
+    }
+    .rmodal .left ol li {
+        font-size: 16px;
+    }
+    .rmodal .right ul li {
+        font-size: 17px;
+    }
+    .rmodal img {
+        width: 40px;
+    }
+}

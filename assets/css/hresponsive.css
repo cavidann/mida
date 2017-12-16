@@ -1,0 +1,135 @@
+
+@media only screen 
+and (max-width: 1024px) 
+and (orientation: landscape){
+    .indexSlide .carousel-caption {
+        left: 8%;
+        top: 24%;
+    }
+    .indexSlide .order {
+        left: 73%;
+        top: 23.3%;
+    }
+    .indexSlide h2{
+        font-size: 52px
+    }
+    div.container-fluid.flex.flex-middle.flex-wrap{
+        justify-content: space-around;
+    }
+}
+
+/* ////////////////////////////////////////// */
+@media only screen 
+and (max-width: 736px) 
+and (orientation: landscape) {
+    
+    .indexSlide h2{
+        width: 490px;
+        line-height: 44px;
+        font-size: 34px;
+    }
+    .mida-gm-logo {
+        width: 115px;
+        height: 114px;
+    } 
+    .mida-gm-logo img{
+        width: 100%;
+        height: auto;
+    }
+    .indexSlide .carousel-indicators{
+        display: none;
+    }
+    .indexSlide h2{
+        height: 110px;
+    }
+    #footer{
+        top: 303px;
+        overflow: hidden;
+        height: 85px;
+        left: -12px;
+    }
+    #footer .list-inline{
+        display: table-footer-group;
+    }
+    div.call.text-left{
+        width: auto
+    }
+    .container-fluid.flex.flex-wrap{
+        display: -webkit-inline-box;
+    }
+    #footer .call, #footer .three-sisters{
+        padding: 0px!important;
+    }
+}
+/* ////////////////////////////////////// */
+@media only screen 
+and (max-width: 667px) 
+and (orientation: landscape){
+   #footer{
+       top: 279px;
+       height: 96px;
+   }
+   #footer img{
+       width: 50px;
+   }
+   #footer .call span{
+       font-size: 30px;
+   }
+   .indexSlide .carousel-caption {
+        left: 4%;
+        /* top: 22%; */
+    }
+    .indexSlide h2 {
+        height: 102px;
+        width: 483px;
+    }
+}
+/* ////////////////////////////////////// */
+@media only screen 
+and (max-width: 640px) 
+and (orientation: landscape){
+    #footer img {
+        width: 45px;
+    }
+    #footer{
+        height: 67px;
+    }
+    .carousel-inner h2 {
+        width: 483px;
+    }
+    .indexSlide p {
+        font-size: 17px;
+    }
+}
+/* ////////////////////////////////////// */
+@media only screen 
+and (max-width: 568px) 
+and (orientation: landscape){
+    
+    .indexSlide h2{
+        font-size: 28px;
+    }
+    #footer{
+        top: 245px;
+        height: 66px;
+    }
+    #footer .flex-wrap{
+        padding: 0px;
+    }
+    #footer .call span {
+        font-size: 18px;
+    }
+    .carousel-inner h2 {
+        width: 418px;
+    }
+    #footer img {
+        width: 31px;
+    }
+}
+/* height */
+/* ////////////////////////////////////////// */
+@media only screen 
+and (max-height: 360px) 
+and (orientation: landscape){
+    
+}

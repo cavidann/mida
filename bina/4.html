@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<!-- Mirrored from yasamal.mida.az/bina/4 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Dec 2017 12:21:16 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+        <meta charset="UTF-8">
+        <title>Yasamal YK-Ana Səhifə</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- links -->
+
+        <link rel="stylesheet" href="../assets/vendor/css/font-awesome.min.css">
+        <link rel="stylesheet"
+              href="../../cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/assets/owl.carousel.min.css"/>
+        <link rel="stylesheet" href="../assets/css/style.css">
+        <link rel="stylesheet" href="../assets/css/fstyle.css">
+
+
+        <script src="../assets/vendor/js/jquery-3.2.1.min.js"></script>
+        <script src="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+        <link rel="stylesheet" href="../../maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="../assets/js/main.js"></script>
+
+    </head>
+    <body>
+
+        <div class="popbg"></div>
+        <div class="popup">
+            <div class="popupclose"></div>
+            <div class="popup-cont"> <div class="poptitle">İpoteka kalkulyatoru</div>
+                <div class="popimgleft"></div>
+                <div class="popgradtop"></div>
+                <div class="popshadtop"></div>
+                <div class="poptabs">
+                    <div class="ptabs " id="ptab1">Ümumİ İpoteka kredİtlərİ</div>
+                    <div class="ptabs pactive" id="ptab2">Güzəştlİ İpoteka kredİtlərİ</div>
+                </div>
+                <div class="popcontent">
+                    <div class="ptabcont ptab1" style="display: none;">
+                        <div id="calc1">
+                            <div class="calc-inpt">
+                                <div class="c-lbl">Aylıq gəlir :</div>
+                                <div class="c-inpt">
+                                    <input type="text" name="ayliqgelir" maxlength="5" class="ayliqgelir" dir="Aylıq ümumi rəsmi gəlir nəzərdə tutulur. Bura maaşınızla bərabər, varsa digər gəlirləriniz də aiddir. (Birgə borcalanlar varsa onların gəlirləri də daxildir)">
+                                    <span> <img src="assets/images/c-azn.html"> </span>
+                                </div>
+                            </div>
+                            <div class="calc-inpt">
+                                <div class="c-lbl">Ailə üzvlərinin sayı :</div>
+                                <div class="c-inpt">
+                                    <input type="text" name="aileuzvu" maxlength="2" class="aileuzvu" dir="Borcalan və borcalanla birgə yaşayan (onun himayəsində olan) şəxslər">
+                                    <span> nəfər </span>
+                                </div>
+                            </div>
+                            <div class="calc-inpt">
+                                <div class="c-lbl">Digər öhdəliklər :</div>
+                                <div class="c-inpt">
+                                    <input type="text" name="digerohtelik" maxlength="5" class="digerohtelik" value="30" dir="İpoteka predmetinin və Borcalanın həyat sığortası üzrə ödənişlər, borcalanın mülkiyyətində olan / olacaq yaşayış sahəsi ilə bağlı xərclər (texniki xidmət, kommunal xidmətlər), digər öhdəliklər üzrə ödənişlər (kredit borcu, alimentlər və s.)">
+                                    <span> <img src="assets/images/c-azn.html"> </span>
+                                </div>
+                            </div>
+                            <div class="calc-inpt">
+                                <div class="c-lbl">Kreditin müddəti :</div>
+                                <div class="c-inpt sel">
+                                    <select class="kreditmuddet select" dir="Kreditin verilmə müddətidir. İpoteka kreditinin verilmə şərtlərinə əsasən müddət 3 il ilə 25 il arasında ola bilər.">
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25" selected="">25</option>
+                                    </select>
+                                    <span class="select">il</span>
+                                </div>
+                            </div>
+                            <div class="calc-inpt">
+                                <div class="c-lbl">İlkin ödəniş (minimal) :</div>
+                                <div class="c-inpt">
+                                    <input type="text" name="ilkodenis" maxlength="2" class="ilkodenis" value="15" dir="Almaq istədiyiniz evin dəyərinin əvvəlcədən ödəyəcəyiniz hissəsi. İpoteka kreditinin verilmə şərtlərinə əsasən bu ən azı 15% -ni təşkil etməlidir. Yəni, almaq istədiyiniz evin minimum 15%-ni əvvəlcədən ödəməlisiniz. Qalan 85% isə ipoteka krediti şəklində ödəyəcəksiniz (maksimum 150000AZN olmaq şərtilə).">
+                                    <span> % </span>
+                                </div>
+                            </div>
+                            <div class="calc-inpt">
+                                <div class="c-lbl">Kredit faizi (illik)</div>
+                                <div class="c-inpt">
+                                    <input type="text" maxlength="1" name="kreditillik" class="kreditillik" value="8" dir="İpoteka krediti üçün təyin edilən illik faiz nəzərdə tutulur. İpoteka kreditinin verilmə şərtlərinə əsasən faiz dərəcəsi 8%-dən çox ola bilməz">
+                                    <span> % </span>
+                                </div>
+                            </div>
+                            <div class="btnbg">
+                                <input type="button" name="hesabla" id="hesabla" class="button-complex" style="margin: 10px 0 0 155px;" value="HESABLA">
+                            </div>
+                            <div class="netice"></div>
+                        </div>
+                    </div>
+                    <div class="ptabcont ptab2" >
+                        <div id="calc2">
+                            <div class="calc-inpt">
+                                <div class="c-lbl">Aylıq gəlir :</div>
+                                <div class="c-inpt">
+                                    <input type="text" name="ayliqgelir" maxlength="5" class="ayliqgelir" dir="Aylıq ümumi rəsmi gəlir nəzərdə tutulur. Bura maaşınızla bərabər, varsa digər gəlirləriniz də aiddir. (Birgə borcalanlar varsa onların gəlirləri də daxildir)">
+                                    <span> <img src="assets/images/c-azn.html"> </span>
+                                </div>
+                            </div>
+                            <div class="calc-inpt">
+                                <div class="c-lbl">Ailə üzvlərinin sayı :</div>
+                                <div class="c-inpt">
+                                    <input type="text" name="aileuzvu" maxlength="2" class="aileuzvu" dir="Borcalan və borcalanla birgə yaşayan (onun himayəsində olan) şəxslər">
+                                    <span> nəfər </span>
+                                </div>
+                            </div>
+                            <div class="calc-inpt">
+                                <div class="c-lbl">Digər öhdəliklər :</div>
+                                <div class="c-inpt">
+                                    <input type="text" name="digerohtelik" maxlength="5" class="digerohtelik" value="30" dir="İpoteka predmetinin və Borcalanın həyat sığortası üzrə ödənişlər, borcalanın mülkiyyətində olan / olacaq yaşayış sahəsi ilə bağlı xərclər (texniki xidmət, kommunal xidmətlər), digər öhdəliklər üzrə ödənişlər (kredit borcu, alimentlər və s.)">
+                                    <span> <img src="assets/images/c-azn.html"> </span>
+                                </div>
+                            </div>
+                            <div class="calc-inpt">
+                                <div class="c-lbl">Kreditin müddəti :</div>
+                                <div class="c-inpt sel">
+                                    <select class="kreditmuddet select" dir="Kreditin verilmə müddətidir. İpoteka kreditinin verilmə şərtlərinə əsasən müddət 3 il ilə 30 il arasında ola bilər.">
+                                        <option value="3">3</option>
+                                        <option value="4">4</option>
+                                        <option value="5">5</option>
+                                        <option value="6">6</option>
+                                        <option value="7">7</option>
+                                        <option value="8">8</option>
+                                        <option value="9">9</option>
+                                        <option value="10">10</option>
+                                        <option value="11">11</option>
+                                        <option value="12">12</option>
+                                        <option value="13">13</option>
+                                        <option value="14">14</option>
+                                        <option value="15">15</option>
+                                        <option value="16">16</option>
+                                        <option value="17">17</option>
+                                        <option value="18">18</option>
+                                        <option value="19">19</option>
+                                        <option value="20">20</option>
+                                        <option value="21">21</option>
+                                        <option value="22">22</option>
+                                        <option value="23">23</option>
+                                        <option value="24">24</option>
+                                        <option value="25">25</option>
+                                        <option value="26">26</option>
+                                        <option value="27">27</option>
+                                        <option value="28">28</option>
+                                        <option value="29">29</option>
+                                        <option value="30" selected="">30</option>
+                                    </select>
+                                    <span class="select">il</span>
+                                </div>
+                            </div>
+                            <div class="calc-inpt">
+                                <div class="c-lbl">İlkin ödəniş (minimal) :</div>
+                                <div class="c-inpt">
+                                    <input type="text" name="ilkodenis" maxlength="2" class="ilkodenis" value="10" dir="Almaq istədiyiniz evin dəyərinin əvvəlcədən ödəyəcəyiniz hissəsi. İpoteka kreditinin verilmə şərtlərinə əsasən bu ən azı 10% -ni təşkil etməlidir. Yəni, almaq istədiyiniz evin minimum 10%-ni əvvəlcədən ödəməlisiniz. Qalan 90% isə ipoteka krediti şəklində ödəyəcəksiniz (maksimum 100000AZN olmaq şərtilə).">
+                                    <span> % </span>
+                                </div>
+                            </div>
+                            <div class="calc-inpt">
+                                <div class="c-lbl">Kredit faizi (illik) :</div>
+                                <div class="c-inpt">
+                                    <input type="text" name="kreditillik" maxlength="1" class="kreditillik" value="4" dir="İpoteka krediti üçün təyin edilən illik faiz nəzərdə tutulur. İpoteka kreditinin verilmə şərtlərinə əsasən faiz dərəcəsi 4%-dən çox ola bilməz">
+                                    <span> % </span>
+                                </div>
+                            </div>
+                            <div class="btnbg">
+                                <input type="button" name="hesabla" id="hesabla2" class="button-complex" style="margin: 10px 0 0 155px;" value="HESABLA">
+                            </div>
+                            <div class="netice"></div>
+                        </div>
+                    </div>
+                    <div class="calcimg"></div>
+                    <div class="helper">
+                        <img src="assets/images/descl.html">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+
+            <div class="row">
+
+                <section id="navbar" class="nav navbar col-md-12 col-sm-12 col-xs-12">
+                    <div class="container-fluid navbar-holder">
+
+                        <ul class="text-right">
+                            <li class="submenu"><a href="../index-2.html"
+                                                   class="">ana səhİfə</a></li>
+                            <li class="submenu">layİhə haqqında
+                                <ul class="list">
+                                    <li><a href="../about.html" class="">Ümumİ
+                                            Məlumat</a></li>
+                                    <li><a href="../preference.html"
+                                           class="">üstünlüklər</a></li>
+                                </ul>
+                            </li>
+                            <a href="../complex.html" class="">
+                                <li>mənzİllər</li>
+                            </a>
+                            <li class="submenu ">Şərtlər
+                                <ul class="list">
+                                    <li><a target="_blank" href="http://mida.gov.az/az/e-system/" >Qeydİyyat</a></li>
+                                    <li><a href="../pay.html" class="">Ödənİş üsulu</a></li>
+                                </ul>
+
+                            </li>
+                            <a href="../gallery.html" class="">
+                                <li>qalereya</li>
+                            </a>
+                            <a href="../contact.html" class="">
+                                <li>əlaqə</li>
+                            </a>
+
+                            <!-- social networks -->
+                            <a href="https://www.facebook.com/guzeshtlimenzil/" target="_blank">
+                                <li class="social fa fa-facebook"></li>
+                            </a>
+
+                            <a href="https://www.youtube.com/channel/UC3xOGx3unafEd79Oe_VFpog" target="_blank">
+                                <li class="social fa fa-youtube"></li>
+                            </a>
+
+                            <a href="https://www.instagram.com/mida.az/" target="_blank">
+                                <li class="social fa fa-instagram"></li>
+                            </a>
+
+                        </ul>
+
+                        <div class="logo">
+                            <a href="https://www.mida.az/" target="_blank">
+                                <img src="../assets/images/logo/ICONS/mida-logo-1x.png" class="img img-responsive">
+                            </a>
+                            <span class="title">
+                                <b>Yasamal</b><br>YAŞAYIŞ KOMPLEKSİ
+                            </span>
+                        </div>
+
+                    </div>
+                </section>
+                		<section id="svg-section" class="col-md-12 col-md-offset-0 col-sm-12 col-xs-12">
+			
+			<div class="row">
+
+				<div class="info-box"></div>
+				<svg id="svg" preserveAspectRatio="none" viewBox="0 0 100 100">
+
+					<a href="../mertebe/4/9.html" class="mertebe" data-target="9" data-value="9/4">
+						<path class="mertebe-path-3" d="M 20.385906040268456 14.925373134328357 L 36.577181208053695 14.776119402985074 L 36.66107382550335 14.626865671641792 L 41.77852348993289 14.626865671641792 L 42.030201342281885 15.074626865671641 L 57.80201342281879 14.626865671641792 L 58.053691275167786 14.477611940298507 L 63.00335570469798 14.477611940298507 L 63.33892617449665 14.776119402985074 L 71.97986577181209 14.626865671641792 L 72.23154362416108 14.776119402985074 L 49 14.776119402985074 L 49 23.88059701492537 L 20.385906040268456 24.328358208955223 Z"></path>
+						
+						<path class="mertebe-path-3" d="M 51 14.925373134328357 L 36.577181208053695 14.776119402985074 L 36.66107382550335 14.626865671641792 L 41.77852348993289 14.626865671641792 L 42.030201342281885 15.074626865671641 L 57.80201342281879 14.626865671641792 L 58.053691275167786 14.477611940298507 L 63.00335570469798 14.477611940298507 L 63.33892617449665 14.776119402985074 L 71.97986577181209 14.626865671641792 L 72.23154362416108 14.776119402985074 L 79.78187919463086 14.776119402985074 L 79.78187919463086 23.88059701492537 L 51 24.328358208955223 Z"></path>
+					</a>
+
+					<a href="../mertebe/4/8.html" class="mertebe" data-target="8" data-value="8/4">
+						<path class="mertebe-path-3" d="M 20.385906040268456 24.328358208955223 L 49 24.17910447761194 L 49 31.64179104477612 L 20.385906040268456 31.791044776119403 Z"></path>
+						
+						<path class="mertebe-path-3" d="M 51 24.328358208955223 L 79.78187919463086 24.17910447761194 L 79.78187919463086 31.64179104477612 L 51 31.791044776119403 Z"></path>
+					</a>
+
+					<a href="../mertebe/4/7.html" class="mertebe" data-target="7" data-value="7/4">
+						<path class="mertebe-path-3" d="M 20.385906040268456 39.25373134328358 L 49 39.1044776119403 L 49 31.64179104477612 L 20.385906040268456 31.791044776119403 Z"></path>
+						
+						<path class="mertebe-path-3" d="M 51 39.25373134328358 L 79.78187919463086 39.1044776119403 L 79.78187919463086 31.64179104477612 L 51 31.791044776119403 Z"></path>
+					</a>
+
+					<a href="../mertebe/4/6.html" class="mertebe" data-target="6" data-value="6/4">
+						<path class="mertebe-path-3" d="M 20.385906040268456 39.55223880597015 L 49 39.40298507462687 L 49 47.01492537313433 L 20.385906040268456 47.16417910447761 Z"></path>
+						
+						<path class="mertebe-path-3" d="M 51 39.55223880597015 L 79.78187919463086 39.40298507462687 L 79.78187919463086 47.01492537313433 L 51 47.16417910447761 Z"></path>
+					</a>
+
+					<a href="../mertebe/4/5.html" class="mertebe" data-target="5" data-value="5/4">
+						<path class="mertebe-path-3" d="M 20.385906040268456 54.77611940298508 L 49 54.62686567164179 L 49 47.01492537313433 L 20.385906040268456 47.16417910447761 Z"></path>
+						
+						<path class="mertebe-path-3" d="M 51 54.77611940298508 L 79.78187919463086 54.62686567164179 L 79.78187919463086 47.01492537313433 L 51 47.16417910447761 Z"></path>
+					</a>
+
+					<a href="../mertebe/4/4.html" class="mertebe" data-target="4" data-value="4/4">
+						<path class="mertebe-path-3" d="M 20.385906040268456 54.77611940298508 L 49 54.62686567164179 L 49 62.23880597014926 L 20.385906040268456 62.38805970149254 Z"></path>
+						
+						<path class="mertebe-path-3" d="M 51 54.77611940298508 L 79.78187919463086 54.62686567164179 L 79.78187919463086 62.23880597014926 L 51 62.38805970149254 Z"></path>
+					</a>
+
+					<a href="../mertebe/4/3.html" class="mertebe" data-target="3" data-value="3/4">
+						<path class="mertebe-path-3" d="M 20.385906040268456 70.29850746268657 L 49 70.1492537313433 L 49 62.23880597014926 L 20.385906040268456 62.38805970149254 Z"></path>
+
+						<path class="mertebe-path-3" d="M 51 70.29850746268657 L 79.78187919463086 70.1492537313433 L 79.78187919463086 62.23880597014926 L 51 62.38805970149254 Z"></path>
+					</a>
+
+					<a href="../mertebe/4/2.html" class="mertebe" data-target="2" data-value="2/4">
+						<path class="mertebe-path-3" d="M 20.385906040268456 70.29850746268657 L 49 70.1492537313433 L 49 77.16417910447761 L 20.385906040268456 77.16417910447761 Z"></path>
+						
+						<path class="mertebe-path-3" d="M 51 70.29850746268657 L 79.78187919463086 70.1492537313433 L 79.78187919463086 77.16417910447761 L 51 77.16417910447761 Z"></path>
+					</a>
+					
+					<img src="../assets/images/svg/low/9-F21.jpg" class="img img-responsive" id="bg-svg">
+
+					<div id="info" class="info-bina text-center">
+
+						<br><br>
+
+						<div class="number floor-number"></div>
+
+						<br>
+
+						<div class="line"></div>
+
+						<br>
+						
+						<div class="info-house-1">
+							Giriş 1 <br>
+							<div>
+								1 otaqlı mənzil - <span class="one"> 19 </span>
+							</div>
+							<div>
+							2 otaqlı mənzil - <span class="two">56</span>
+							</div>
+							<div>
+							3 otaqlı mənzil - <span class="three">19</span>
+							</div>
+						</div>
+		
+						<br><br>
+
+						<div class="line2"></div>
+						
+						<br>
+
+						<div class="info-house-2">
+							Giriş 2 <br>
+							<div>
+							1 otaqlı mənzil - <span class="one"> 19 </span>
+							</div>
+							<div>
+							2 otaqlı mənzil - <span class="two">56</span> 
+							</div>
+							<div>
+							3 otaqlı mənzil - <span class="three">19</span>
+							</div>
+						</div>
+
+						<br>
+
+						<br><br>
+
+					</div>	
+
+				</svg>
+			</div>
+
+		</section>
+
+		<footer class='stable-inner flex flex-center'>
+			<button onclick="history.back()" class="buttonbefore flex-align-left">
+				<img src="../assets/images/logo/ICONS/back-arrow-1x.png" alt="">
+				Əvvəlki
+			</button>
+		</footer>
+
+		</div>
+
+</div>
+	
+</body>
+
+<!-- Mirrored from yasamal.mida.az/bina/4 by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 01 Dec 2017 12:21:36 GMT -->
+</html>
+<!-- Scripts -->
+<script src="../assets/js/carousel.js"></script>
+<script src="../assets/js/svg.js"></script>
+<script src="../assets/js/info-mertebe.js"></script>
+<script src="../assets/js/menu.js"></script>
+<script src="../assets/js/info-bina.js"></script>
+            </div>
+
+</div>
+</div>
+</body>
+
+                
+
